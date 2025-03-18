@@ -1,0 +1,116 @@
+:root {
+  --primary: #262aa1;
+  --lightprimary: #6769a6;
+}
+* {
+  font-family: "Montserrat", serif;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+body {
+  min-width: 350px;
+}
+a {
+  text-decoration: none !important;
+}
+input,
+textarea {
+  border: 1px solid #e7e7e7;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.divider {
+  height: 2px;
+  background: #e7e7e7;
+  max-width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.rounded_card {
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 10px;
+  background: #ffffff;
+  box-shadow: 1px 1px 4px 3px #e7e7e7;
+  cursor: pointer;
+  width: 30%;
+}
+.rounded_card:hover {
+  background-color: #e7e7e7;
+}
+
+.logo_wrapper {
+  border: 1px dotted var(--primary);
+  font-weight: bold;
+  font-size: 13px;
+  padding: 5px;
+  letter-spacing: 5px;
+  background-color: var(--lightprimary);
+  color: white;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: grey;
+  padding: 20px;
+}
+.nav_item {
+  font-weight: bold;
+  font-size: 14px;
+}
+.flex_container {
+  display: flex;
+}
+.justifier_navbar {
+  justify-content: space-between;
+}
+.profile_image {
+  height: 300px;
+  width: 300px;
+  background: blue;
+  border-radius: 50%;
+  background: url("./../images/Lyang.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.primary_button {
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px 5px #a698e7;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  background-color: var(--primary);
+  color: #fff;
+  transition: all 0.2s;
+}
+.primary_button:hover {
+  padding: 18px;
+}
+.primary_banner {
+  background: var(--primary);
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contact_picture {
+  background: red;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  background: url(../images/contact.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer {
+  background: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  line-height: 20px;
+}

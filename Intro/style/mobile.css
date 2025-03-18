@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px) {
+  .flex_container {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .contact_picture {
+    display: none;
+  }
+  .rounded_card {
+    width: auto;
+  }
+  .navbar_mobile {
+    flex-direction: row !important;
+  }
+}
